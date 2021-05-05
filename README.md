@@ -10,3 +10,5 @@ köztes pontot , mivel két pont között lineárisan próbál eljutni különb�
 akkor megpróbál a földön átmenni egyenesen , ami pedig nincsen megengedve , és ezért megáll egy helyben. 
 
 Telepítés: executable mappában van a futtatható állomány , további teendő ezzel nincsen. 
+
+Futtatáshoz nem szükséges más program , a programot Godot 3.3 - ban írtam. 
