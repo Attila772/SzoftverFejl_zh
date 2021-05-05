@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Ui/Button.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+pause_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 314.0
+margin_bottom = 440.0
+color = Color( 0.313726, 0.290196, 0.290196, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextEdit" type="TextEdit" parent="ColorRect"]
+margin_top = 162.0
+margin_right = 307.0
+margin_bottom = 209.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="ColorRect"]
+margin_left = 6.0
+margin_top = 249.0
+margin_right = 313.0
+margin_bottom = 315.0
+text = "Add point"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="ColorRect"]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Add custom coordinate min: -100,-100,-100
+max 100,100,100
+ex.:
+USA : -13,56,95
+Brazil: 73,-14,80
+Egypt: 104,41,-40
+EU: 73,80,-13
+China: -32,51,-96"
+__meta__ = {
+"_edit_use_anchors_": false
+}
